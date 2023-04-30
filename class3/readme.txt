@@ -1,0 +1,1 @@
+https://themes.shopify.com/themes/local/styles/light/preview
