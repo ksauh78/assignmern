@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    font-size: 13px;
+    height: 23px;
+    padding-left:20%;
+    padding-right:10%;
+    background-color: #ececec;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.navbar p{
+position: relative;
+bottom:10px;
+}
+.div1parent{
+    width: 100%;
+    position: sticky;
+    font-family: 'Source Sans Pro', sans-serif;
+    border: solid 1px rosybrown;
+    background-color: #ffffff;
+    top: 0px; /*sticky lai jaile top ko value dina parxa compulsory */
+}
+.div1{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 125px;
+}
+.darazlogo{
+    margin-top: 12px;
+    height: 40px;
+}
+.searchbox{
+    height: 40px;
+    margin-top: 12px;
+    width: 40%;
+    margin-left: 8%;
+    border-radius: 2px;
+    padding-left: 20px;
+}
+.searchlogo{
+    height: 44px;
+    margin-top: 12px;
+    background-color: #f95707;
+}
+.cartlogo{
+    height: 33px;
+    margin-top: 19px;
+    margin-left: 40px;
+    background-color: #ffffff;
+}
+.darazgif{
+    height: 60px;
+    width: 250px;
+    margin-left: 80px;
+    margin-top: 7px;
+}
+.dropdown{
+    height: 20px;
+    margin-top: 18px;
+    margin-bottom: 2px;
+}
+.categories{
+    width: 20px;
+    height: 20px;
+}
+.div3{
+    display: flex;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 22%;
+    justify-content: space-between;
+    margin-left: 10%;
+}
+.div3 p{
+    color: #2ea7cc;
+}
+.div3 p:nth-child(9){   /*div3 bhitra ko 9 th paragraph tag is selected*/
+    color: grey;
+}
+.divparent{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+}
+.cate{
+    width: 20%;
+}
+.casualtops{
+    width: 80%;
+}
+.casualtops2{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.card{
+    height:400px;
+}
+.card:hover{
+    border: solid 1px #d9dddc;
+    border-radius: 2px;
+    transition: 0.1s;
+}
+.card img{
+    width: 100%;
+    height: 58%;
+}
+.card img:nth-child(2){
+    height:25px;
+    width: 40px;
+}
+.card a{
+    text-decoration: none;
+    color:#2bafd4;
+    font-size: 15px;
+}
+.card p{
+    margin: 0;
+    font-size: 25px;
+    color: #f95707;
+}
+.card h6{
+    font-size: 12px;
+    color: grey;
+    display: inline;
+    margin-top: 20px;
+    margin-right:5px;
+    position: relative;
+    top: 20px;
+    left: 187px;
+}
+.next{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.next a{
+    position: relative;
+    left: 900px;
+}
+.casualtops1 p{
+    font-size: 23px;
+}
+.divcasualtops11{
+    display: flex;
+    margin-left: 60%;
+    justify-content: space-evenly;
+    width: 40%;
+}
+.divcasualtops11 p{
+    font-size:15px ;
+}
+.best1{
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+}
+.divcasualtops11 img{
+    height: 30px;
+    width: 30px;
+    background-color: #ffffff;
+}
