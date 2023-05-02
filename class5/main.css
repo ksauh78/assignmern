@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.chat-notification{
+    border:solid 5px brown;
+    display: flex;
+}
+.chat-notification-logo-wrapper{
+    border:solid 1px yellow;
+}
+.chat-notification-content{
+    border:solid 1px green;
+}
+.chat-notification-title{
+    border:solid 1px blue;
+}
+.chat-notification-message
+{
+    border:solid 1px navy;
+}
+

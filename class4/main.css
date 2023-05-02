@@ -108,7 +108,6 @@ bottom:10px;
 .card:hover{
     border: solid 1px #d9dddc;
     border-radius: 2px;
-    transition: 0.1s;
 }
 .card img{
     width: 100%;

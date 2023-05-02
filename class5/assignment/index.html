@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classmate</title>
+    <link rel="stylesheet" type="text/css" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="navbar">
+          <div class="d1">
+                <div class="classmatelogo">
+                    <img src="https://classmateshop.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FHome1.8c7f0c98.png&w=640&q=75" alt="logo">
+                </div>
+          </div>
+          <div class="d2">
+                <div class="desyournote">
+                    Design Your Notebook
+                </div>
+                <div class="cartlogo">
+                    <img src="data:image/png;base64,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" alt="cartlogo">
+                </div>
+                <div class="userlogo">
+                    <img src="data:image/png;base64,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" alt="profilelogo">
+                </div>
+                <div class="login">Login/Sign Up</div>
+          </div>
+    </div>
+    <div class="d3">
+        <img src="https://classmateshop.com/_next/image?url=https%3A%2F%2Fcls-cdn-wip.sgp1.cdn.digitaloceanspaces.com%2Flive%2Fmedia%2Fbanner%2Fdesktop%2F52c3be1e-c483-4415-b622-94559f045c29.jpg&w=3840&q=75" alt="img1">
+    </div>
+    <div class="box1">
+        <div class="box11">
+            <p>Choose from Our</p>
+            <p>Exciting Cover Designs</p>
+        </div>
+        <div class="box22">
+            <div class="box221">
+                <img src="https://classmateshop.com/_next/image?url=https%3A%2F%2Fcls-cdn-wip.sgp1.cdn.digitaloceanspaces.com%2Flive%2Fmedia%2Fdesign_template%2Ffeatured_image%2Fc5d3665d-bbbf-4249-9f79-faefee8d7a2b.png&w=640&q=75" alt="1stcopy">
+                <p>Buy Now</p>
+            </div>
+            <div class="box222">
+                <img src="https://classmateshop.com/_next/image?url=https%3A%2F%2Fcls-cdn-wip.sgp1.cdn.digitaloceanspaces.com%2Flive%2Fmedia%2Fdesign_template%2Ffeatured_image%2F3a9e5449-1a06-426d-aa33-82eded31a3f0.png&w=640&q=75" alt="secondcopy">
+                <p>Buy Now</p>
+            </div>
+            <div class="box223">
+                <img src="https://classmateshop.com/_next/image?url=https%3A%2F%2Fcls-cdn-wip.sgp1.cdn.digitaloceanspaces.com%2Flive%2Fmedia%2Fdesign_template%2Ffeatured_image%2Fb2777374-ad22-4eb4-b70d-3b1e5f80a574.png&w=640&q=75" alt="3rdcopy">
+                <p>Buy Now</p>
+            </div>
+        </div>
+    </div>
+    <div class="grid">
+        <div class="gridchild">
+            <img src="https://classmateshop.com/_next/image?url=https%3A%2F%2Fcls-cdn-wip.sgp1.cdn.digitaloceanspaces.com%2Flive%2Fmedia%2Fdesign_template%2Ffeatured_image%2Fc5d3665d-bbbf-4249-9f79-faefee8d7a2b.png&w=640&q=75" alt="">
+        </div>
+        <div class="gridchild">
+            <img src="https://classmateshop.com/_next/image?url=https%3A%2F%2Fcls-cdn-wip.sgp1.cdn.digitaloceanspaces.com%2Flive%2Fmedia%2Fdesign_template%2Ffeatured_image%2Fc5d3665d-bbbf-4249-9f79-faefee8d7a2b.png&w=640&q=75" alt="">
+        </div>
+        <div class="gridchild">
+            <img src="https://classmateshop.com/_next/image?url=https%3A%2F%2Fcls-cdn-wip.sgp1.cdn.digitaloceanspaces.com%2Flive%2Fmedia%2Fdesign_template%2Ffeatured_image%2Fc5d3665d-bbbf-4249-9f79-faefee8d7a2b.png&w=640&q=75" alt="">
+        </div>
+        <div class="gridchild">
+            <img src="https://classmateshop.com/_next/image?url=https%3A%2F%2Fcls-cdn-wip.sgp1.cdn.digitaloceanspaces.com%2Flive%2Fmedia%2Fdesign_template%2Ffeatured_image%2Fc5d3665d-bbbf-4249-9f79-faefee8d7a2b.png&w=640&q=75" alt="">
+        </div>
+        <div class="gridchild">
+            <img src="https://classmateshop.com/_next/image?url=https%3A%2F%2Fcls-cdn-wip.sgp1.cdn.digitaloceanspaces.com%2Flive%2Fmedia%2Fdesign_template%2Ffeatured_image%2Fc5d3665d-bbbf-4249-9f79-faefee8d7a2b.png&w=640&q=75" alt="">
+        </div>
+        <div class="gridchild">
+            <img src="https://classmateshop.com/_next/image?url=https%3A%2F%2Fcls-cdn-wip.sgp1.cdn.digitaloceanspaces.com%2Flive%2Fmedia%2Fdesign_template%2Ffeatured_image%2Fc5d3665d-bbbf-4249-9f79-faefee8d7a2b.png&w=640&q=75" alt="">
+        </div>
+        <div class="gridchild">
+            <img src="https://classmateshop.com/_next/image?url=https%3A%2F%2Fcls-cdn-wip.sgp1.cdn.digitaloceanspaces.com%2Flive%2Fmedia%2Fdesign_template%2Ffeatured_image%2Fc5d3665d-bbbf-4249-9f79-faefee8d7a2b.png&w=640&q=75" alt="">
+        </div>
+        <div class="gridchild">
+            <img src="https://classmateshop.com/_next/image?url=https%3A%2F%2Fcls-cdn-wip.sgp1.cdn.digitaloceanspaces.com%2Flive%2Fmedia%2Fdesign_template%2Ffeatured_image%2Fc5d3665d-bbbf-4249-9f79-faefee8d7a2b.png&w=640&q=75" alt="">
+        </div>
+        <div class="gridchild">
+            <img src="https://classmateshop.com/_next/image?url=https%3A%2F%2Fcls-cdn-wip.sgp1.cdn.digitaloceanspaces.com%2Flive%2Fmedia%2Fdesign_template%2Ffeatured_image%2Fc5d3665d-bbbf-4249-9f79-faefee8d7a2b.png&w=640&q=75" alt="">
+        </div>
+        <div class="gridchild">
+            <img src="https://classmateshop.com/_next/image?url=https%3A%2F%2Fcls-cdn-wip.sgp1.cdn.digitaloceanspaces.com%2Flive%2Fmedia%2Fdesign_template%2Ffeatured_image%2Fc5d3665d-bbbf-4249-9f79-faefee8d7a2b.png&w=640&q=75" alt="">
+        </div>
+        <div class="gridchild">
+            <img src="https://classmateshop.com/_next/image?url=https%3A%2F%2Fcls-cdn-wip.sgp1.cdn.digitaloceanspaces.com%2Flive%2Fmedia%2Fdesign_template%2Ffeatured_image%2Fc5d3665d-bbbf-4249-9f79-faefee8d7a2b.png&w=640&q=75" alt="">
+        </div>
+        <div class="gridchild">
+            <img src="https://classmateshop.com/_next/image?url=https%3A%2F%2Fcls-cdn-wip.sgp1.cdn.digitaloceanspaces.com%2Flive%2Fmedia%2Fdesign_template%2Ffeatured_image%2Fc5d3665d-bbbf-4249-9f79-faefee8d7a2b.png&w=640&q=75" alt="">
+        </div>
+    </div>
+    <div class="foot">
+    <p>this is the footer</p>
+
+    </div>
+</body>
+</html>

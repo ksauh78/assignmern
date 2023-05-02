@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.divparent{
+    margin-top:5%;
+    width: 100%;
+    background-color: green;
+}
+.box{
+    display: block;
+    margin-left: 10%;
+}
+.box1{
+    background-color: red;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2%;
+    
+}
+.divparent h3{
+    background-color: aqua;
+}
+.divparent p{
+    background-color: grey;
+}
+.box2{
+    background-color: yellow;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2%;
+}
+@media screen and (min-width:800px) {
+    .box{
+        display: flex;
+    }
+}
