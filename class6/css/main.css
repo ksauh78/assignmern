@@ -1,0 +1,299 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #121212;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+section{
+    display: flex;
+    flex-direction: start;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121212;
+    width: 95%;
+    padding:10px 0px;
+    margin-left: 2.5%;
+}
+.left-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 169px;
+    height: 56px;
+}
+.left-section youtube-logo{
+object-fit: contain;
+}
+.middle-section{
+    display: flex;
+    align-items: center;
+}
+.middle-section .search-container{
+    
+    display: flex;
+    align-items: center;
+    border: solid 0.002px #858484;
+    width:34vw;
+    border-radius: 100px;
+    background-color: #272727;
+}
+.middle-section .search input{
+    height: 38px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    padding-left: 20px;
+    width: 28vw;
+}
+.middle-section .search-logo{
+    margin: auto;
+    border-top-left-radius:100px;
+    border-bottom-left-radius: 100px;
+}
+.middle-section .mic{
+    margin-left: 10px;
+}
+.right-section{
+    display: flex;
+    width: 9vw;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-section p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #004c3f;
+    margin-top:0px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    margin-top: 3px;
+}
+.main-video-section{
+    width: 100%;
+}
+.left-video-section{
+    width:15%;
+    margin-left: 1%;
+    height: 100vh;  /* to make a scroll bar appear i've used vertical height*/
+    overflow: scroll;   /* the content which doesnot fit on screen can be seen using a scroll bar using 
+                           the overflow property*/
+}
+.left-video-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.left-video-section1{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.left-video-section1 div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+}
+.left-video-section1 div svg{
+    margin-right: 16px;
+}
+.left-video-section1 div:nth-child(3){
+    border-bottom: solid 1px #333333
+
+}
+.left-video-section2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.left-video-section2 div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+}
+.left-video-section2 div svg{
+    margin-right: 16px;
+}
+.left-video-section2 div:nth-child(6){
+    border-bottom: solid 1px #333333;
+}
+.left-video-section3{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.left-video-section3 div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+}
+.left-video-section3 div svg{
+    margin-right: 16px;
+}
+.left-video-section3 div:nth-child(8){
+    border-bottom: solid 1px #333333;
+}
+.left-video-section4{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.left-video-section4 div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+}
+.left-video-section4 div svg{
+    margin-right: 16px;
+}
+.left-video-section4 div:nth-child(5){
+    border-bottom: solid 1px #333333;
+}
+.left-video-section5{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.left-video-section5 div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+}
+.left-video-section5 div svg{
+    margin-right: 16px;
+}
+.left-video-section5 div:nth-child(3){
+    border-bottom: solid 1px #333333;
+}
+.left-video-section6{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.left-video-section6 div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+}
+.left-video-section6 div svg{
+    margin-right: 16px;
+}
+.left-video-section6 div:nth-child(4){
+    border-bottom: solid 1px #333333;
+}
+.left-video-section7{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: #858484;
+}
+.left-video-section7 div{
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 12px;
+}
+.left-video-section7 div:nth-of-type(1){
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+.left-video-section7 div p{
+    margin-left:7px;
+}
+.main-video-section{
+    display: flex;
+}
+.right-video-section{
+    width: 100%;
+    margin-left: 0.8%;
+    margin-right:1%;
+    padding-top: 1px;
+    box-sizing: border-box;
+}
+.right-video-section-top{
+    width: 100%;
+    height:5vh;
+    display: flex;
+    overflow-x: scroll;
+}
+.right-video-section-top div{
+    background-color:#272727;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 8px;
+}
+.right-section-bottom{
+    width: 90%;
+    margin-left: 5%;
+    margin-top:2%;
+}
+.right-section-bottom .gridparent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 10px;
+}
+.right-section-bottom .gridchild{
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    align-items: center;
+}
+.right-section-bottom .gridchild img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    height: 250px;
+}
+.div-info .profile-logo img{
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    margin-top: 13px;
+}
+.gridchild .div-info{
+    display: flex;
+    width: 100%;
+    height: 110px;
+}
+.div-info .profile-info{
+    margin-left: 10px;
+    margin-top: 13px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.div-info .profile-info p:nth-child(1){
+    position:relative;
+    font-size: 19px;
+    top:-17px;
+}
+
+.div-info .profile-info p:nth-child(2){
+    position:relative;
+    font-size: 13px;
+    top:-45px;
+}
+
+.div-info .profile-info p:nth-child(3){
+    position:relative;
+    font-size: 13px;
+    top:-65px;
+}
+
+
