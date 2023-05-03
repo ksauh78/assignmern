@@ -92,6 +92,13 @@ body{
     color: #cbd5e1;
     background-color: #081c6c;
 }
+.para1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 20px;
+
+}
 .grid{
     margin-top: 30px;
     width: 80%;
@@ -104,6 +111,7 @@ body{
 .gridchild img{
     width: 100%;
     height: 100%;
+    box-shadow: 1px 1px 5px 1px #081c6c inset;
 }
 .foot{
     margin-top: 50px;
