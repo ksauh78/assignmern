@@ -79,7 +79,7 @@ object-fit: contain;
     margin-left: 1%;
     height: 100vh;  /* to make a scroll bar appear i've used vertical height*/
     overflow: scroll;   /* the content which doesnot fit on screen can be seen using a scroll bar using 
-    x                       the overflow property*/
+                           the overflow property*/
 }
 .left-video-section{
     display: flex;
